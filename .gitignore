@@ -1,0 +1,46 @@
+# -----------------------------
+# CMake + CLion + C Projects
+# -----------------------------
+
+# CLion IDE settings
+.idea/
+cmake-build-*/
+
+# CMake build outputs
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Executables and object files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Logs, core dumps, and debug symbols
+*.log
+*.core
+*.stackdump
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+desktop.ini
+
+# Temporary test outputs or generated CSV/JSON
+*.tmp
+*.bak
+*.json
+*.csv.out
+*.csv.result
+
+# Unit test snapshots (optional)
+test-results/
